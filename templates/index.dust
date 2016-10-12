@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Homepage</title>
+</head>
+<body>
+  <h1>This is a CONSTRUCTED page</h1>
+  <p>The file for this never existed and was made on receipt of your request.</p>
+  <p>The variable you passed as name in the querystring was <strong>{name}</strong></p>
+</body>
+</html>
