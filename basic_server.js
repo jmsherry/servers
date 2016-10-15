@@ -1,5 +1,4 @@
 var express = require('express'); // A pre-made server 'kit' (framework)
-var fs = require('fs'); //File system access/helpers
 
 var app = express(); // Create the app
 

@@ -27,6 +27,11 @@ app.get('/docs', function(req, res) {
     });
 });
 
+app.get('/', function(req, res) {
+    console.log('as a file server, I am returning a response', req.query.file);
+    res.send("HOME");
+});
+
 app.listen(3000, function() {
     console.log('Your server is ALIVE!!!');
 });
