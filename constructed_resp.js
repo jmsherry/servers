@@ -3,15 +3,6 @@ var fs = require('fs'); //File system access/helpers
 var path = require('path');
 var dustjsExpress = require('dustjs-express');
 
-var options = { // some configuration options <-- ignore
-    root: __dirname + '/public/',
-    dotfiles: 'deny',
-    headers: {
-        'x-timestamp': Date.now(),
-        'x-sent': true
-    }
-};
-
 
 var app = express(); // Create the app
 
